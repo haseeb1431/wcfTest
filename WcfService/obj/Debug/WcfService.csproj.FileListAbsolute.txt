@@ -1,0 +1,6 @@
+C:\Users\haseeb-asif\Documents\Visual Studio 2013\Projects\TestSolution\WcfService\bin\WcfService.dll.config
+C:\Users\haseeb-asif\Documents\Visual Studio 2013\Projects\TestSolution\WcfService\bin\WcfService.dll
+C:\Users\haseeb-asif\Documents\Visual Studio 2013\Projects\TestSolution\WcfService\bin\WcfService.pdb
+C:\Users\haseeb-asif\Documents\Visual Studio 2013\Projects\TestSolution\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\haseeb-asif\Documents\Visual Studio 2013\Projects\TestSolution\WcfService\obj\Debug\WcfService.dll
+C:\Users\haseeb-asif\Documents\Visual Studio 2013\Projects\TestSolution\WcfService\obj\Debug\WcfService.pdb
