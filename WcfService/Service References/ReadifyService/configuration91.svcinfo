@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="ZRoSpNpMsPiEFmXpbybK2kkpXFw=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="xzlmnux9DuDPMdXw93YZDI3ZSBA=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IRedPill">
       <properties>
@@ -221,7 +221,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IRedPill" contract="RedPill.IRedPill" bindingType="basicHttpBinding" address="http://knockknock.azurewebsites.net/RedPill.svc" bindingConfiguration="BasicHttpBinding_IRedPill">
+    <endpoint name="BasicHttpBinding_IRedPill" contract="ReadifyService.IRedPill" bindingType="basicHttpBinding" address="http://knockknock.azurewebsites.net/RedPill.svc" bindingConfiguration="BasicHttpBinding_IRedPill">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://knockknock.azurewebsites.net/RedPill.svc</serializedValue>
@@ -236,7 +236,7 @@
           <serializedValue>BasicHttpBinding_IRedPill</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>RedPill.IRedPill</serializedValue>
+          <serializedValue>ReadifyService.IRedPill</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -306,7 +306,7 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="BasicHttpsBinding_IRedPill" contract="RedPill.IRedPill" bindingType="basicHttpBinding" address="https://knockknock.readify.net/RedPill.svc" bindingConfiguration="BasicHttpsBinding_IRedPill">
+    <endpoint name="BasicHttpsBinding_IRedPill" contract="ReadifyService.IRedPill" bindingType="basicHttpBinding" address="https://knockknock.readify.net/RedPill.svc" bindingConfiguration="BasicHttpsBinding_IRedPill">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>https://knockknock.readify.net/RedPill.svc</serializedValue>
@@ -321,7 +321,7 @@
           <serializedValue>BasicHttpsBinding_IRedPill</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>RedPill.IRedPill</serializedValue>
+          <serializedValue>ReadifyService.IRedPill</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>

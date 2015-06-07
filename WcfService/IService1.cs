@@ -10,7 +10,7 @@ namespace WcfService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface IGreenPill
+    public interface IRedPill
     {
 
         [OperationContract]
@@ -29,8 +29,8 @@ namespace WcfService
             "Fault", Name = "ArgumentOutOfRangeException", Namespace = "http://schemas.datacontract.org/2004/07/System")]
         long FibonacciNumber(long n);
 
-        [OperationContract]
-        WcfService.RedPill.TriangleType WhatShapeIsThis(int a, int b, int c);
+        [OperationContract]        
+        WcfService.ReadifyService.TriangleType WhatShapeIsThis(int a, int b, int c);
 
         [OperationContract]
         [System.ServiceModel.FaultContractAttribute(typeof(System.ArgumentNullException), Name = "ArgumentNullException", Namespace = "http://schemas.datacontract.org/2004/07/System")]

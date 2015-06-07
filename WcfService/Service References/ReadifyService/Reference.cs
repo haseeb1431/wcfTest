@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WcfService.RedPill {
+namespace WcfService.ReadifyService {
     using System.Runtime.Serialization;
     
     
@@ -30,7 +30,7 @@ namespace WcfService.RedPill {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://KnockKnock.readify.net", ConfigurationName="RedPill.IRedPill")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://KnockKnock.readify.net", ConfigurationName="ReadifyService.IRedPill")]
     public interface IRedPill {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://KnockKnock.readify.net/IRedPill/WhatIsYourToken", ReplyAction="http://KnockKnock.readify.net/IRedPill/WhatIsYourTokenResponse")]
@@ -48,10 +48,10 @@ namespace WcfService.RedPill {
         System.Threading.Tasks.Task<long> FibonacciNumberAsync(long n);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis", ReplyAction="http://KnockKnock.readify.net/IRedPill/WhatShapeIsThisResponse")]
-        WcfService.RedPill.TriangleType WhatShapeIsThis(int a, int b, int c);
+        WcfService.ReadifyService.TriangleType WhatShapeIsThis(int a, int b, int c);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis", ReplyAction="http://KnockKnock.readify.net/IRedPill/WhatShapeIsThisResponse")]
-        System.Threading.Tasks.Task<WcfService.RedPill.TriangleType> WhatShapeIsThisAsync(int a, int b, int c);
+        System.Threading.Tasks.Task<WcfService.ReadifyService.TriangleType> WhatShapeIsThisAsync(int a, int b, int c);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://KnockKnock.readify.net/IRedPill/ReverseWords", ReplyAction="http://KnockKnock.readify.net/IRedPill/ReverseWordsResponse")]
         [System.ServiceModel.FaultContractAttribute(typeof(System.ArgumentNullException), Action="http://KnockKnock.readify.net/IRedPill/ReverseWordsArgumentNullExceptionFault", Name="ArgumentNullException", Namespace="http://schemas.datacontract.org/2004/07/System")]
@@ -62,12 +62,12 @@ namespace WcfService.RedPill {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IRedPillChannel : WcfService.RedPill.IRedPill, System.ServiceModel.IClientChannel {
+    public interface IRedPillChannel : WcfService.ReadifyService.IRedPill, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class RedPillClient : System.ServiceModel.ClientBase<WcfService.RedPill.IRedPill>, WcfService.RedPill.IRedPill {
+    public partial class RedPillClient : System.ServiceModel.ClientBase<WcfService.ReadifyService.IRedPill>, WcfService.ReadifyService.IRedPill {
         
         public RedPillClient() {
         }
@@ -104,11 +104,11 @@ namespace WcfService.RedPill {
             return base.Channel.FibonacciNumberAsync(n);
         }
         
-        public WcfService.RedPill.TriangleType WhatShapeIsThis(int a, int b, int c) {
+        public WcfService.ReadifyService.TriangleType WhatShapeIsThis(int a, int b, int c) {
             return base.Channel.WhatShapeIsThis(a, b, c);
         }
         
-        public System.Threading.Tasks.Task<WcfService.RedPill.TriangleType> WhatShapeIsThisAsync(int a, int b, int c) {
+        public System.Threading.Tasks.Task<WcfService.ReadifyService.TriangleType> WhatShapeIsThisAsync(int a, int b, int c) {
             return base.Channel.WhatShapeIsThisAsync(a, b, c);
         }
         
